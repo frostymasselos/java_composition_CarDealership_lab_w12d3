@@ -54,7 +54,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarTest.canGetPrice">
+  <component name="RunManager" selected="JUnit.CarTest.canGetColour">
+    <configuration name="CarTest.canGetColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car_dealership" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cars" />
+      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
+      <option name="METHOD_NAME" value="canGetColour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarTest.canGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <extension name="coverage">
@@ -98,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarTest.canGetColour" />
         <item itemvalue="JUnit.CarTest.canGetPrice" />
         <item itemvalue="JUnit.TyreTest.canGetTyreColour" />
         <item itemvalue="JUnit.DieselEngineTest" />

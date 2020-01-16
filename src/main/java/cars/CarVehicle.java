@@ -42,8 +42,8 @@ public abstract class CarVehicle {
         }
     }
 
-    public ColourType getColour() {
-        return colour;
+    public String getColour() {
+        return colour.getDescription();
     }
 
     public Engine getEngine() {

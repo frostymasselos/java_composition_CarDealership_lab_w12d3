@@ -21,4 +21,13 @@ public class CarTest {
         assertEquals(30000, car.getPrice(), 0.01);
     }
 
+    @Test
+    public void canGetColour(){
+        assertEquals("blue", car.getColour());
+    }
+
+    @Test
+
+
+
 }
