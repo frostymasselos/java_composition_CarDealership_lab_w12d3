@@ -22,11 +22,14 @@ public class CarTest {
     }
 
     @Test
-    public void canGetColour(){
+    public void canGetColourDescription(){
         assertEquals("blue", car.getColour());
     }
 
     @Test
+    public void canGetEnginePower(){
+        assertEquals(9, car.getEngine().getPower()); 
+    }
 
 
 
