@@ -104,7 +104,9 @@ public class CarTest {
 
     @Test
     public void cannotDriveWhenEngineOff(){
-
+        car.go(2000);
+        car.go(5000);
+        assertEquals(0, car.getDistanceTravelled());
     }
 
 
