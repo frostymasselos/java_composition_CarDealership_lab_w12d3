@@ -29,7 +29,13 @@ public class CarTest {
 
     @Test
     public void canGetDamage(){
-        assertEquals(false, car.isDamage()); 
+        assertEquals(false, car.isDamage());
+    }
+
+    @Test
+    public void canSetDamage(){
+        car.setDamage(true);
+        assertEquals(true, car.isDamage()); 
     }
 
     @Test
