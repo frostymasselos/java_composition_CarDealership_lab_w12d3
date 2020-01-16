@@ -28,7 +28,12 @@ public class CarTest {
 
     @Test
     public void canGetEnginePower(){
-        assertEquals(9, car.getEngine().getPower()); 
+        assertEquals(9, car.getEngine().getPower());
+    }
+
+    @Test
+    public void canGetFourTyres(){
+        assertEquals(4, car.getTyres().length); 
     }
 
 
