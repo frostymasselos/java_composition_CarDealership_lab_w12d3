@@ -10,7 +10,7 @@ public abstract class CarVehicle {
     private Engine engine;
     private Tyre[] tyres;
     private boolean damage;
-    private boolean engineStarted;
+    protected boolean engineStarted;
     private int distanceTravelled;
     private int pollution;
     private int coolness;

@@ -59,6 +59,16 @@ public class CarTest {
         assertEquals(4, car.getTyres().length);
     }
 
+    @Test
+    public void engineStartsOff(){
+        assertEquals(false, car.engineStarted);
+    }
+
+//    @Test
+//    public void canStartEngine(){
+//        assertEquals(true, )
+//    }
+
 
 
 
