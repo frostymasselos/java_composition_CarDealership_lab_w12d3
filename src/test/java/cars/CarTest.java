@@ -87,10 +87,10 @@ public class CarTest {
         assertEquals(0, car.getPollution());
     }
 
-    @Test
-    public void canGetCoolness(){
-        assertEquals(0, car.getCoolness()); 
-    }
+//    @Test
+//    public void canGetCoolness(){
+//        assertEquals(0, car.getCoolness());
+//    }
 
 
 
