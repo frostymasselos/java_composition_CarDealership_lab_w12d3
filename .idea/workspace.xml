@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarTest.engineStartsOff">
+  <component name="RunManager" selected="JUnit.CarTest.canStopEngine">
     <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <extension name="coverage">
@@ -63,22 +63,6 @@
       <option name="PACKAGE_NAME" value="cars" />
       <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarTest.canGetDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="car_dealership" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cars" />
-      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
-      <option name="METHOD_NAME" value="canGetDamage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.canSetDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.canStartEngine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +93,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="cars" />
       <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
-      <option name="METHOD_NAME" value="canSetDamage" />
+      <option name="METHOD_NAME" value="canStartEngine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.canStopEngine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car_dealership" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cars" />
+      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
+      <option name="METHOD_NAME" value="canStopEngine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarTest.canStopEngine" />
+        <item itemvalue="JUnit.CarTest.canStartEngine" />
         <item itemvalue="JUnit.CarTest.engineStartsOff" />
         <item itemvalue="JUnit.CarTest" />
         <item itemvalue="JUnit.CarTest.canReevaluatePrice" />
-        <item itemvalue="JUnit.CarTest.canSetDamage" />
-        <item itemvalue="JUnit.CarTest.canGetDamage" />
       </list>
     </recent_temporary>
   </component>

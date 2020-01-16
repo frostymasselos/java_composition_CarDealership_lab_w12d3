@@ -64,10 +64,18 @@ public class CarTest {
         assertEquals(false, car.engineStarted);
     }
 
-//    @Test
-//    public void canStartEngine(){
-//        assertEquals(true, )
-//    }
+    @Test
+    public void canStartEngine(){
+        car.startEngine();
+        assertEquals(true, car.engineStarted);
+    }
+
+    @Test
+    public void canStopEngine(){
+        car.startEngine();
+        car.stopEngine();
+        assertEquals(false, car.engineStarted); 
+    }
 
 
 
