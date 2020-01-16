@@ -32,7 +32,7 @@ public abstract class CarVehicle {
         return this.price;
     }
 
-    public void setPrice(double Price){
+    public void setPrice(double price){
         this.price = price;
     }
 

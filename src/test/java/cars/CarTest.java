@@ -22,6 +22,12 @@ public class CarTest {
     }
 
     @Test
+    public void canSetPrice(){
+        car.setPrice(40000);
+        assertEquals(40000, car.getPrice(), 0.01);
+    }
+
+    @Test
     public void canGetColourDescription(){
         assertEquals("blue", car.getColour());
     }
@@ -33,8 +39,10 @@ public class CarTest {
 
     @Test
     public void canGetFourTyres(){
-        assertEquals(4, car.getTyres().length); 
+        assertEquals(4, car.getTyres().length);
     }
+
+
 
 
 
