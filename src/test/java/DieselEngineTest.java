@@ -20,6 +20,6 @@ public class DieselEngineTest {
 
     @Test
     public void canGetPollutionRating(){
-        assertEquals(9, dEngine.getPollutionRating()); 
+        assertEquals(9, dEngine.getPollutionRating());
     }
 }
