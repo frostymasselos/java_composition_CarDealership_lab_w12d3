@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946024d2-8d0c-4baa-804b-df9bb2500996" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/carComponents/TyreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cars/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cars/CarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/carComponents/Tyre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/carComponents/Tyre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cars/CarVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cars/CarVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cars/ColourType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cars/ColourType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DieselEngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/carComponents/DieselEngineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/carComponents/TyreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/carComponents/TyreTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TyreTest.canGetTyreColour">
+  <component name="RunManager" selected="JUnit.CarTest.canGetPrice">
+    <configuration name="CarTest.canGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car_dealership" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cars" />
+      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
+      <option name="METHOD_NAME" value="canGetPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DieselEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <option name="PACKAGE_NAME" value="carComponents" />
@@ -84,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarTest.canGetPrice" />
         <item itemvalue="JUnit.TyreTest.canGetTyreColour" />
         <item itemvalue="JUnit.DieselEngineTest" />
       </list>

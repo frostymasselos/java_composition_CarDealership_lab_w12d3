@@ -12,6 +12,8 @@ public abstract class CarVehicle {
     private boolean damage;
     private boolean engineStarted;
     private int distanceTravelled;
+    private int pollution;
+    private int coolness;
 
     public CarVehicle(double price, ColourType colour, Engine engine){
         this.price = price;
@@ -21,6 +23,8 @@ public abstract class CarVehicle {
         this.damage = false;
         this.engineStarted = false;
         this.distanceTravelled = 0;
+        this.pollution = 0;
+        this.coolness = 0;
 
     }
 
@@ -58,6 +62,10 @@ public abstract class CarVehicle {
         this.damage = damage;
     }
 
+    public int getDistanceTravelled(){
+        return this.distanceTravelled;
+    }
+
     public void startEngine(){
         this.engineStarted = true;
     }
@@ -69,7 +77,13 @@ public abstract class CarVehicle {
     public void go(int distance){
         if (this.engineStarted == true){
             this.distanceTravelled += distance;
+            this.pollution += 0.05 * (distance * this.engine.getPollutionRating());
+            this.coolness += 0.05 * (distance * this.engine.getPower());
             System.out.println("Driving!");
+            System.out.println("You have driven " + Integer.toString(distance) + "metres");
+            System.out.println("Total distance: ");
+            System.out.println("Total pollution: ");
+            System.out.println("Total coolness: ");
         }
         System.out.println("Engine isn't started");
     }

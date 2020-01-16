@@ -16,7 +16,7 @@ public class TyreTest {
 
     @Test
     public void canGetTyreColour(){
-        assertEquals("black", tyre.getColourTypeDescription()); 
+        assertEquals("black", tyre.getColourTypeDescription());
     }
 }
 
