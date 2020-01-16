@@ -28,6 +28,16 @@ public class CarTest {
     }
 
     @Test
+    public void canGetDamage(){
+        assertEquals(false, car.isDamage()); 
+    }
+
+    @Test
+    public void canReevaluatePrice(){
+
+    }
+
+    @Test
     public void canGetColourDescription(){
         assertEquals("blue", car.getColour());
     }

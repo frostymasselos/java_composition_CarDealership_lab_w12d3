@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarTest.canSetPrice">
+  <component name="RunManager" selected="JUnit.CarTest.canGetDamage">
     <configuration name="CarTest.canGetColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <extension name="coverage">
@@ -63,6 +63,22 @@
       <option name="PACKAGE_NAME" value="cars" />
       <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
       <option name="METHOD_NAME" value="canGetColour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.canGetDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car_dealership" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cars" />
+      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
+      <option name="METHOD_NAME" value="canGetDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,22 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.canGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="car_dealership" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cars" />
-      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
-      <option name="METHOD_NAME" value="canGetPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CarTest.canSetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <extension name="coverage">
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarTest.canGetDamage" />
         <item itemvalue="JUnit.CarTest.canSetPrice" />
         <item itemvalue="JUnit.CarTest.canGetFourTyres" />
         <item itemvalue="JUnit.CarTest.canGetEnginePower" />
         <item itemvalue="JUnit.CarTest.canGetColour" />
-        <item itemvalue="JUnit.CarTest.canGetPrice" />
       </list>
     </recent_temporary>
   </component>
