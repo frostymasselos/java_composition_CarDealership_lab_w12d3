@@ -13,7 +13,7 @@ public class CarTest {
 
     @Before
     public void before() {
-        car = new Car(30000, ColourType.BLUE, dieselEngine);
+        car = new Car("Norbit", 30000.00, ColourType.BLUE, dieselEngine);
     }
 
     @Test
@@ -23,7 +23,7 @@ public class CarTest {
 
     @Test
     public void canSetPrice(){
-        car.setPrice(40000);
+        car.setPrice(40000.00);
         assertEquals(40000, car.getPrice(), 0.01);
     }
 
@@ -108,11 +108,5 @@ public class CarTest {
         car.go(5000);
         assertEquals(0, car.getDistanceTravelled());
     }
-
-
-
-
-
-
 
 }

@@ -5,8 +5,8 @@ import carComponents.Engine;
 
 public class Car extends CarVehicle {
 
-    public Car(double price, ColourType colour, Engine engine){
-        super(price, colour, new DieselEngine());
+    public Car(String name, Double price, ColourType colour, Engine engine){
+        super(name, price, colour, new DieselEngine());
     }
 
 }

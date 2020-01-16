@@ -1,41 +1,53 @@
 package cars;
 
+import external.CostOfDamage;
 import carComponents.Engine;
 import carComponents.Tyre;
+import external.CostOfDamage;
 
-public abstract class CarVehicle {
+public abstract class CarVehicle extends CostOfDamage {
 
-    private double price;
+    private String name;
+    private Double price;
     private ColourType colour;
     private Engine engine;
     private Tyre[] tyres;
     private boolean damage;
+//    public Double multiplier;
     protected boolean engineStarted;
     protected int distanceTravelled;
     private int pollution;
     private int coolness;
 
-    public CarVehicle(double price, ColourType colour, Engine engine){
+
+    public CarVehicle(String name, Double price, ColourType colour, Engine engine){
+//        super(0.7);
+        this.name = name;
         this.price = price;
         this.colour = colour;
         this.engine = engine;
         this.tyres = new Tyre[4];
         this.damage = false;
+//        this.multiplier = 0.7;
         this.engineStarted = false;
         this.distanceTravelled = 0;
         this.pollution = 0;
         this.coolness = 0;
+//        this.multiplier = multiplier;
+    }
 
+    public String getName(){
+        return this.name;
     }
 
     public double getPrice(){
         if (this.damage == true){
-            this.price = (this.price * 0.7);
+            this.price = (this.price * super.getMultiplier());
         }
         return this.price;
     }
 
-    public void setPrice(double price){
+    public void setPrice(Double price){
         this.price = price;
     }
 
