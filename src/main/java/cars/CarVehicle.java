@@ -11,7 +11,7 @@ public abstract class CarVehicle {
     private Tyre[] tyres;
     private boolean damage;
     protected boolean engineStarted;
-    private int distanceTravelled;
+    protected int distanceTravelled;
     private int pollution;
     private int coolness;
 
@@ -61,6 +61,14 @@ public abstract class CarVehicle {
 
     public int getDistanceTravelled(){
         return this.distanceTravelled;
+    }
+
+    public int getPollution(){
+        return this.pollution;
+    }
+
+    public int getCoolness(){
+        return this.coolness;
     }
 
     public void startEngine(){

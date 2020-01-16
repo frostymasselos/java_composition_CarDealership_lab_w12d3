@@ -74,8 +74,25 @@ public class CarTest {
     public void canStopEngine(){
         car.startEngine();
         car.stopEngine();
-        assertEquals(false, car.engineStarted); 
+        assertEquals(false, car.engineStarted);
     }
+
+    @Test
+    public void canGetDistanceTravelled(){
+        assertEquals(0, car.getDistanceTravelled());
+    }
+
+    @Test
+    public void canGetPollution(){
+        assertEquals(0, car.getPollution());
+    }
+
+    @Test
+    public void canGetCoolness(){
+        assertEquals(0, car.getCoolness()); 
+    }
+
+
 
 
 
