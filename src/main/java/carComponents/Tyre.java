@@ -1,10 +1,16 @@
 package carComponents;
 
-public abstract class Tyre {
+import cars.ColourType;
 
-    private String colour;
+public class Tyre {
+
+    private ColourType colour;
 
     public Tyre(){
-        this.colour = "Black";
+        this.colour = ColourType.BLACK;
+    }
+
+    public String getColourTypeDescription(){
+        return this.colour.getDescription();
     }
 }
