@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946024d2-8d0c-4baa-804b-df9bb2500996" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cars/CarVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cars/CarVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cars/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cars/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cars/CarVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cars/CarVehicle.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +53,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarTest.canGetCoolness">
+  <component name="RunManager" selected="JUnit.CarTest.canDrive">
+    <configuration name="CarTest.canDrive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car_dealership" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cars" />
+      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
+      <option name="METHOD_NAME" value="canDrive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarTest.canGetCoolness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <extension name="coverage">
@@ -100,22 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.canStopEngine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="car_dealership" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cars" />
-      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
-      <option name="METHOD_NAME" value="canStopEngine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CarTest.distanceTravelledStartsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <extension name="coverage">
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarTest.canDrive" />
         <item itemvalue="JUnit.CarTest.canGetCoolness" />
         <item itemvalue="JUnit.CarTest.canGetPollution" />
         <item itemvalue="JUnit.CarTest.canGetDistanceTravelled" />
         <item itemvalue="JUnit.CarTest.distanceTravelledStartsZero" />
-        <item itemvalue="JUnit.CarTest.canStopEngine" />
       </list>
     </recent_temporary>
   </component>

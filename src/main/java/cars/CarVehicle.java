@@ -73,24 +73,28 @@ public abstract class CarVehicle {
 
     public void startEngine(){
         this.engineStarted = true;
+        System.out.println("Engine Started");
     }
 
     public void stopEngine(){
         this.engineStarted = false;
+        System.out.println("Engine off");
     }
 
     public void go(int distance){
         if (this.engineStarted == true){
             this.distanceTravelled += distance;
-            this.pollution += 0.05 * (distance * this.engine.getPollutionRating());
-            this.coolness += 0.05 * (distance * this.engine.getPower());
+            this.pollution += 0.005 * (distance * this.engine.getPollutionRating());
+            this.coolness += 0.005 * (distance * this.engine.getPower());
             System.out.println("Driving!");
-            System.out.println("You have driven " + Integer.toString(distance) + "metres");
-            System.out.println("Total distance: ");
-            System.out.println("Total pollution: ");
-            System.out.println("Total coolness: ");
+            System.out.println("You have driven " + Integer.toString(distance) + " metres");
+            System.out.println("Total distance: " + Integer.toString(this.distanceTravelled) + " metres");
+            System.out.println("Total pollution: " + Integer.toString(this.pollution) + " smogs");
+            System.out.println("Total coolness: " + Integer.toString(this.coolness) + " shades");
+        } else {
+            System.out.println("Engine isn't started");
         }
-        System.out.println("Engine isn't started");
+
     }
 
 }

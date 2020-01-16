@@ -92,6 +92,21 @@ public class CarTest {
         assertEquals(0, car.getCoolness());
     }
 
+    @Test
+    public void canDrive(){
+        car.startEngine();
+        car.go(2000);
+        car.go(5000);
+        assertEquals(7000, car.getDistanceTravelled());
+        assertEquals(315, car.getPollution());
+        assertEquals(315, car.getCoolness());
+    }
+
+    @Test
+    public void cannotDriveWhenEngineOff(){
+
+    }
+
 
 
 
