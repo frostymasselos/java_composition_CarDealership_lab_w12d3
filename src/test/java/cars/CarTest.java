@@ -28,6 +28,12 @@ public class CarTest {
     }
 
     @Test
+    public void canReevaluatePrice(){
+        car.setDamage(true);
+        assertEquals(21000, car.getPrice(), 0.01);
+    }
+
+    @Test
     public void canGetDamage(){
         assertEquals(false, car.isDamage());
     }
@@ -35,12 +41,7 @@ public class CarTest {
     @Test
     public void canSetDamage(){
         car.setDamage(true);
-        assertEquals(true, car.isDamage()); 
-    }
-
-    @Test
-    public void canReevaluatePrice(){
-
+        assertEquals(true, car.isDamage());
     }
 
     @Test

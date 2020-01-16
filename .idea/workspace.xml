@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946024d2-8d0c-4baa-804b-df9bb2500996" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cars/CarVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cars/CarVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cars/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cars/CarTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +52,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarTest.canSetDamage">
+  <component name="RunManager" selected="JUnit.CarTest">
+    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car_dealership" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cars" />
+      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarTest.canGetDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <extension name="coverage">
@@ -67,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.canGetEnginePower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.canReevaluatePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="car_dealership" />
       <extension name="coverage">
         <pattern>
@@ -77,23 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cars" />
       <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
-      <option name="METHOD_NAME" value="canGetEnginePower" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarTest.canGetFourTyres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="car_dealership" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cars" />
-      <option name="MAIN_CLASS_NAME" value="cars.CarTest" />
-      <option name="METHOD_NAME" value="canGetFourTyres" />
+      <option name="METHOD_NAME" value="canReevaluatePrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarTest" />
+        <item itemvalue="JUnit.CarTest.canReevaluatePrice" />
         <item itemvalue="JUnit.CarTest.canSetDamage" />
         <item itemvalue="JUnit.CarTest.canGetDamage" />
         <item itemvalue="JUnit.CarTest.canSetPrice" />
-        <item itemvalue="JUnit.CarTest.canGetFourTyres" />
-        <item itemvalue="JUnit.CarTest.canGetEnginePower" />
       </list>
     </recent_temporary>
   </component>

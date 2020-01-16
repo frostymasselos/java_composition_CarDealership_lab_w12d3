@@ -29,17 +29,14 @@ public abstract class CarVehicle {
     }
 
     public double getPrice(){
+        if (this.damage == true){
+            this.price = (this.price * 0.7);
+        }
         return this.price;
     }
 
     public void setPrice(double price){
         this.price = price;
-    }
-
-    public void reevaluatePrice(){
-        if (this.damage == true){
-            this.price = (this.price * 0.7);
-        }
     }
 
     public String getColour() {
